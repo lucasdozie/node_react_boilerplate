@@ -1,0 +1,28 @@
+{
+  "name": "node_react_boilerplate",
+  "version": "1.0.0",
+  "description": "Template for a fresh nodejs and Reactjs Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "frontend-install": "cd frontend & npm install",
+    "server": "nodemon index",
+    "dev": "concurrently \"npm start\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Imo nnadozie",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
